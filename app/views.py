@@ -4,3 +4,36 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("<h1>Hello Django app</h1>")
+
+def client_login(request):
+    pass
+
+def accountant_login(request):
+    pass
+
+def create_new_user(request):
+    pass
+
+def create_new_accountant(request):
+    pass
+
+def director_login(request):
+    pass
+
+def credittor_login(request):
+    pass
+
+def create_new_credittor(request):
+    pass
+
+def show_all_credits(request):
+    pass
+
+def show_credit_details(request,id):
+    pass
+
+def show_director_details(request):
+    pass
+
+def client_details(request,id):
+    pass

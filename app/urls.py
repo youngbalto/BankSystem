@@ -7,7 +7,7 @@ urlpatterns = [
     path('login/accountant',accountant_login),
     path('sign_up/user',create_new_user),
     path('sign_up/acocuntant',create_new_accountant),
-    path('login/director',direcotr_login),
+    path('login/director',director_login),
     path('login/credittor',credittor_login),
     path('sign_up/credittor',create_new_credittor),
     path('credits/',show_all_credits),
