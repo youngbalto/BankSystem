@@ -11,7 +11,7 @@ urlpatterns = [
     path('login/credittor',credittor_login),
     path('sign_up/credittor',create_new_credittor),
     path('credits/',show_all_credits),
-    path('credits/<id>',show_credit_details),
+    path("credits/<int:id>",show_credit_details),
     path('profile/director',show_director_details),
     path('client/<id>',client_details)
 ]

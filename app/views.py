@@ -30,10 +30,10 @@ def show_all_credits(request):
     pass
 
 def show_credit_details(request,id):
-    pass
+    return HttpResponse(f"<h2>Credit sum is {id} </h2>")
 
 def show_director_details(request):
-    pass
+    return HttpResponse("Director details")
 
 def client_details(request,id):
     pass
